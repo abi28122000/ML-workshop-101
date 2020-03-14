@@ -8,10 +8,10 @@
  different classifiers and the results can be compared.
 """
 
-from prep_terrain_data import makeTerrainData
-from class_vis import prettyPicture
-from gaussianNB_classifier import classify
-#from svm_classifier import classify
+from utilities.prep_terrain_data import makeTerrainData
+from utilities.class_vis import prettyPicture
+from classifiers.gaussianNB_classifier import classify
+#from classifiers.svm_classifier import classify
 
 import numpy as np
 import pylab as pl

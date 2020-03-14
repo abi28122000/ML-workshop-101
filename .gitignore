@@ -1,0 +1,8 @@
+#tools related
+.idea/**
+*.iml
+
+*.pyc
+venv2.7/**
+
+visualizations/**
